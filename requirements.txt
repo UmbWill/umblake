@@ -1,0 +1,14 @@
+asgiref==3.4.1
+Django==3.2.9
+django-replicated==2.7
+mssql-django==1.1.1
+mysql-connector-python==8.0.27
+mysqlclient==2.1.0
+protobuf==3.19.1
+psycopg2==2.8
+pyodbc==4.0.32
+pytz==2021.3
+six==1.16.0
+sql-server.pyodbc==1.0
+sqlparse==0.4.2
+typing_extensions==4.0.1
