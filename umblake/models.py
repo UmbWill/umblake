@@ -70,11 +70,11 @@ class Departments(models.Model):
    
    IF_INDT  = models.DateTimeField()
    IF_UPDT = models.DateTimeField() 
-   IF_SEQ = models.BigIntegerField(primary_key=True)
+   IF_SEQ = models.BigIntegerField()
    IF_STT= models.DateTimeField() 
    IF_PMD  = models.CharField(max_length = 50) 
    HOSPITALCODE = models.CharField(max_length = 50)
-   DEPTCODE  = models.CharField(max_length = 50) 
+   DEPTCODE  = models.CharField(max_length = 50, primary_key=True) 
    DEPTNAME  = models.CharField(max_length = 50) 
    DEPTSHORTNAME = models.CharField(max_length = 50)  
    DEPTSPECIALNAME = models.CharField(max_length = 50,null=True)
