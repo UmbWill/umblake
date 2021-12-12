@@ -3,6 +3,13 @@ Move data from MSSQL to Postgres using Django-Docker
 
 A way to move data from one container with MSSQL to another container with Django+PostgreSQL
 
+**Used Version**
+
+Docker version 20.10.11
+
+Python 3.6.9
+
+
 **How to run:**
 
 First lets move into the project folder and create the enviroment using the requirements.txt file
